@@ -1,0 +1,129 @@
+<div class='excerpt'>
+  <h3>The Absolute Beginner's Guide to Capybara/RSpec</h3>
+  <p>
+    Sometimes the biggest challenge of using a new tool is not the syntax but getting set up. I needed to write functional (aka integration or end-to-end) tests for a one-page app that relies entirely on AJAX to interact with a REST API.
+  </p>
+  <p>
+    I decied to use Capybara in conjunction with RSpec because I'm somewhat familiar with RSpec and saw a lot of tutorials/documentation for fusing the two. It's said to have an <a href="http://rubydoc.info/github/jnicklas/capybara">intuitive API</a> and uses an easy to understand DSL (domain-specific language).
+  </p>
+
+  <button class='more active'>Read more</button>
+</div>
+
+<div class="full-text">
+  <p>
+    It was rather challenging to figure out how to configure the two gems and where to put the tests inside the '/spec' folder. After about 2 hours and running 'rspec' unsuccessfully 30 times, I narrowed down the *key* steps in setting up Capybara test framework in a Rails app:
+  </p>
+
+  <h4>1. Gemfile</h4>
+  <pre>
+    group :development, :test do
+      gem 'rspec-rails'
+      gem 'capybara'
+    end</pre>
+
+  <h4>2. spec/spec_helper.rb</h4>
+  <pre>
+    require 'rspec/rails'
+    require 'rspec/autorun'
+    require 'capybara/rails'
+    require 'capybara/rspec'
+    require 'capybara/dsl'</pre>
+
+  <p>
+    The first two lines are automatically generated when you do <code>rails g rspec:install</code>. However, you need to require the capybara pieces manually.
+  </p>
+
+  <h4>3. Config the gems in spec/spec_helper.rb</h4>
+  <p>
+    Apparently selenium is the default driver for Capybara but I set it explicitly to be safe (actually I was trying everything I could get my hands on).
+    <pre>Capybara.default_driver = :selenium</pre>
+  </p>
+  <p>
+    You also need to include Capybara::DSL module so you can use phrases like <code>visit '/'</code>, <code>fill_in</code>, <code>click_button</code> in the tests.
+  </p>
+
+  <pre>
+    RSpec.configure do |config|
+      config.include Capybara::DSL
+    end</pre>
+
+  <h4>4. Where to put spec files</h4>
+  <p>
+    For RSpec, tests go under 'spec/lib'. However, with Capybara, I have seen tests being put both under 'spec/features' and 'spec/integration'. I went with the latter: <code>spec/integration/name_spec.rb</code>
+  </p>
+
+  <h4>5. Require spec_helper</h4>
+  <p>
+    At the top of each of your test file, put:
+  </p>
+  <pre>require 'spec_helper'</pre>
+
+  <h4>6. Test syntax</h4>
+  <p>
+    According to documentation I have come across, you can write tests either with RSpec or Capybara conventions:
+  </p>
+  <pre>
+    describe 'log in process' do
+      it 'lets user log in' do
+       # Test goes in here
+      end
+    end</pre>
+
+  <p>
+    I went with the Capybara way:
+  </p>
+  <pre>
+    feature 'log in process', :js => true do
+      scenario 'lets user log in' do
+        # Test goes in here
+      end
+    end</pre>
+  <p>
+    <code>:js => true</code> is supposed to help you switch to the Capybara.javascript_driver (instead of the selenium default). However, my app ended needing to use selenium web driver.
+  </p>
+
+  <h4>7. Capybara DSL syntax</h4>
+  <pre>
+    feature 'log in process', :js => true do
+      scenario 'lets user log in' do
+        visit '/sessions/new'
+        fill_in 'Email', :with => 'user@example.com'
+        fill_in 'Password', :with => 'password'
+        click_button 'Sign in'
+        expect(page).to have_content 'Success'
+      end
+    end</pre>
+
+  <h4>8. Capybara selectors</h4>
+  <p>
+    For 'click_link' you can select the element by id or text. But for 'click_button' or 'fill_in', you have to select by the button value or input placeholder value.
+  </p>
+  <pre>
+    click_link('id-of-link')
+    click_link('Link Text')
+    click_button('Save')
+    click_on('Link Text') # clicks on either links or buttons
+    click_on('Button Value')</pre>
+  <p>
+    You can also find element by its id or html tag:
+  </p>
+  <pre>
+    find_field('First Name').value
+    find_link('Hello').visible?
+    find_button('Send').click
+    find("#overlay").find("h1").click</pre>
+
+  <h4>9. Web driver!</h4>
+  <p>
+    Last but not least, after I set up everything else correctly and was able to run rspec without getting `undefined method` error for Capybara, my terminal told me I was missing this gem:
+    <code>gem 'selenium-webdriver'</code>
+  </p>
+
+  <h4>Success</h4>
+  <p>
+    As promised, when you successfully execute Capybara, the test will open up a browser and fill out username and password in the field you told it to and decide whether it fails or succeeds.
+  </p>
+</div>
+
+<button class='less'>Less</button>

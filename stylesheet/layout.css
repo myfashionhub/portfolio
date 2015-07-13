@@ -1,0 +1,132 @@
+body {
+  width: 100%;
+  height: 98vh;
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway';
+  font-size: 16px;
+  background-color: #fff;
+}
+
+.wrapper {
+  height: 100%;
+}
+
+.container {
+  width: 100%;
+  overflow: auto;
+}
+
+/* NAV */
+nav {
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  overflow: hidden;
+  background-color: #f5f5f5;
+  font-family: 'Questrial';
+}
+
+nav .logo {
+  float: left;
+  margin: .5em 1em;
+  font-size: 1.7em;
+  color: #D6521E;
+  text-transform: uppercase;
+  line-height: 1.5em;
+}
+
+nav .logo:hover {
+  border-bottom: none;
+  color: #D6521E;
+}
+
+nav ul {
+  overflow: hidden;
+  float: right;
+  margin: .5em 0;
+  font-size: 1.7em;
+  list-style-type: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: .7em; 
+}
+
+nav a {
+  color: #555;
+}
+
+nav a:hover, nav a.current {
+  border-bottom: 2px #FF4500 solid;
+}
+
+/* MAIN */
+
+main {
+  width: 80%;
+  max-width: 800px;
+  min-width: 300px;
+  position: relative;
+  margin: 3em auto 2em auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* FOOTER */
+footer {
+  position: relative;
+  width: 100%;
+  background-color: #f5f5f5;
+  overflow: hidden;
+}
+
+footer .tweet-stream {
+  margin: 1.1em 1.6em;
+}
+
+.tweets a {
+  display: block;
+  line-height: 1.5em;
+  color: #444;
+}
+.tweets a:hover {
+  color: #33A1C9;
+}
+
+footer .contact {
+  float: right;
+  padding-left: 0;
+  margin: .8em;
+  list-style-type: none;
+  text-align: center;
+}
+
+.contact li {
+  display: inline-block;
+  position: relative;
+  margin: 0 20px;
+  padding: 0;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.contact img {
+  width: 40px;
+}
+
+/* STATES */
+.hidden {
+  display: none;
+}
+
+/* MEDIA QUERIES */
+
+@media all and (max-width: 700px) {
+}
+
+@media all and (max-width: 575px) {
+}

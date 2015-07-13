@@ -1,0 +1,54 @@
+<div class='excerpt'>
+  <h3>My day hacking Google QPX Express Airfare API</h3>
+  <p>
+    <img src="https://developers.google.com/qpx-express/images/qpx-icon-c_64.png" alt="qpx express" style="float:left;"/> Google API documentations are not very beginner-friendly. Although it appears to be simple <a href="https://developers.google.com/qpx-express/v1/trips/search">in theory</a>, the learning curve is high. Here are all the errors I encountered in one afternoon while trying to use the API and how I solved them.
+  </p>
+
+  <button class='more active'>Read more</button>
+</div>
+
+<div class="full-text">
+  <p>
+  1. <strong>API key setup: </strong>I think this is worth mentioning because the page to do this isn't straight forward. Googling "Google developers console" will take you to the page where you can enable the API you're trying to use and obtain a key for it.
+  </p>
+
+  <p>
+  3. <strong>Ruby wrapper:</strong> My mentor suggested that I could use Google's Ruby wrapper for the API so I can make the request server-side. I was able to find documentation on how to create the API client (which is common to all of Google's APIs). BUT there is <strong><a href="https://developers.google.com/apis-explorer/#p/qpxExpress/v1/">one line</a> </strong>of documentation specific to QPX, and I couldn't figure out how to specify the request body so I gave up.
+  </p>
+
+  <p>
+    3. <strong>403 "Access not configured"</strong>: I put my API key in the header as instructed but was getting this error. It was a combination of 2 things. I solved my problem but didn't know which fix did it.
+  </p>
+  <p>
+    + Initially I had specified under allowed IP the IP address of my apartment's internet access but I was working from another one. <a href="http://stackoverflow.com/questions/14348689/google-api-returning-access-not-configured">This post</a> suggests that you have to register your v6 and not v4 IP. I don't even know what that is so I just leave it blank as one post recommends to allow requests from any IP.
+  </p>
+  <p>
+    + Still getting the error. I had to restart my rails server and it changed to a 400 status code.
+  </p>
+
+  <p>
+    3. <strong>400 "Bad request"</strong>: I was fumbling for a while because I didn't know how to investigate what went wrong. Luckily going under the Network tab (Chrome developer console)
+  </p>
+
+    <code>Parse Error. This API does not support parsing form-encoded input</code>
+
+  <p>
+    With the help of this <a href="http://stackoverflow.com/questions/19261862/this-api-does-not-support-parsing-form-encoded-input">stackoverflow thread</a>, I set <code>contentType: 'application/json'</code> in my ajax request.
+  </p>
+
+  <p>
+    4. <strong>200 with empty response body</strong>: for a while I got a 200 status with nothing in the response body. Even more unhelpful than the two previous errors. I don't know why this went through, but I started hitting the API and encountered 400 again.
+  </p>
+
+  <p>
+    5. <strong>400 "Parse error"</strong>:<strong> </strong>This error is similar to the third one but I figured the cause was different because of the different message. It was a bit vague and difficult to search for but I finally found this thread that <a href="https://groups.google.com/forum/#!topic/gcm-for-chrome-feedback/tLz6gKBCigw">nails the problem in the head</a>. My json was not really json but a javascript object, very close but not really. I had to simply use <code>JSON.stringify(object)</code> to turn it into valid json. The reason I was so slow to figure out this issue (nearly 1 hour) is because a) I've mainly used the opposite method, JSON.parse to read response body and rarely done a post request with such a big request body; b) I've mostly made ajax requests to my own Rails server, which accepts an object with no problem.
+  </p>
+
+  <p>
+    The "victory" wasn't that great but it was really, really worthwhile to get back the response object in the console since I've spent all day hacking this API with basically no help. I guess I helped myself to Google and Stackoverflow.
+  </p>
+
+  <a href="https://myfashionhub.files.wordpress.com/2014/07/qpx-response.png"><img src="https://myfashionhub.files.wordpress.com/2014/07/qpx-response.png?w=660" alt="qpx-response" style="width:100%; display:block; margin:.5em auto;" /></a>
+</div>
+
+<button class='less'>Less</button>
