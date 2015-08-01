@@ -1,6 +1,8 @@
 $(document).ready(function() {
-	currentTab();
+
+  currentTab();
   loadTwitter();
   $('.menu a').click(menuNav);
   iconHover();
+
 });
