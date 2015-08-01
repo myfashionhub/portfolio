@@ -6,11 +6,8 @@ function menuNav(e) {
   toggleMenuItem(link);
 
   var effect = _.sample(['drop', 'clip']);
-  $('.'+sectionName.replace('menu-','')).appendTo($('main')).hide().toggle(effect);
-
-  if (sectionName === 'resume') {
-    showJobDesc();
-  }
+  $('.'+sectionName.replace('menu-','')).
+    appendTo($('main')).hide().toggle(effect);
 }
 
 
@@ -29,11 +26,4 @@ function currentTab() {
     $('#menu-'+sectionName).addClass('current');
     $('.'+sectionName).appendTo($('main')).hide().fadeIn('slow');
   }
-}
-
-
-/* Toggle  job description */
-function showJobDesc(e) {
-  var detailsDiv = $(e.target).parent().find('div');
-  detailsDiv.toggleClass('show');
 }

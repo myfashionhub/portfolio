@@ -1,8 +1,6 @@
-$(window).load(currentTab);
-
 $(document).ready(function() {
+	currentTab();
   loadTwitter();
   $('.menu a').click(menuNav);
-  $('.experience sup').click(showJobDesc);
   iconHover();
 });
