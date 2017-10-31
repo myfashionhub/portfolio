@@ -34,7 +34,7 @@
             {
                 "files": ["2.1.jpg"],
                 "caption": "Delicious, healthy brunch at a place called Station Cafe. Not picture is the lattes and blueberry bread pudding we had for dessert. Yum.",
-                "class": "one"
+                "class": "one-half"
             }
         ]
     },
@@ -50,7 +50,7 @@
             },
             {
                 "files": ["2.1.jpg"],
-                "caption": "We're off to the Coromandel Peninsula. The accommodation was a old-fashioned by well-equipped bungalow by the Hot Water Beach. The air was a bit chilly but the water under the sand was hot. So we dug our own hot tubs.",
+                "caption": "We're off to the Coromandel Peninsula. The accommodation was a old-fashioned but well-equipped bungalow by the Hot Water Beach. The air was a bit chilly but the water under the sand was hot. So we dug our own hot tub.",
                 "class": "one"
             }
         ]
