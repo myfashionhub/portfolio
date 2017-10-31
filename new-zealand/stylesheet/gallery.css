@@ -1,0 +1,54 @@
+.day-block {
+    display: block;
+    max-width: 800px;
+    margin: 2em auto 0 auto;
+}
+
+.title {
+    margin: .3em 0 .5em 0;
+    font-family: 'Rozha One';
+    font-size: 2em;
+}
+
+.caption {
+    margin-top: .5em;
+}
+
+.image-group {
+    width: 100%;
+    min-width: 300px;
+    display: inline-block;
+    margin: 1em auto 0 auto;
+}
+
+.image-group img {
+    display: inline-block;
+    height: auto;
+}
+
+.image-group.one img {
+    width: 100%;
+}
+.image-group.two img {
+    width: 50%;
+}
+.image-group.three img {
+    width: 33%;
+}
+.image-group.four img {
+    width: 25%;
+}
+
+.portrait-1-landscape-2 img {
+    width: 50%;
+    float: left;
+}
+
+.portrait-2-landscape-1 img:first-child,
+.portrait-2-landscape-1 img:nth-child(2) {
+    width: 50%;
+    float: left;
+}
+.portrait-2-landscape-1 img:last-child {
+    width: 100%;
+}

@@ -1,0 +1,133 @@
+{
+    "day01": {
+        "date": "October 12, 2017",
+        "title": "Hello Auckland",
+        "description": "After traveling for 27 hours, we landed in the city of Auckland. First impression: there are a lot of Asians here, and diverse Asian food choices as a result.",
+        "images": [
+            {
+                "files": ["1.1.jpg", "1.2.jpg", "1.3.jpg"],
+                "caption": "We went on a walking tour of the city. The Art Gallery museum was small but charming, so was Albert Park. Britomart was a beautiful area with string lights decoration and chic shops. High Street and Vulcane Lane were filled with hip store fronts.",
+                "class": "three"
+            },
+            {
+                "files": ["2.1.jpg", "2.2.jpg", "2.3.jpg"],
+                "caption": "We found Cafe Hanoi, an authentic Vietnamese bistro. I wish the portion was bigger because, look at that cha ca! (tumeric-seasoned pan seared fish served over vermicelli).",
+                "class": "portrait-1-landscape-2"
+            },
+            {
+                "files": ["3.1.jpg", "3.2.jpg", "3.3.jpg"],
+                "caption": "Can't stay on the ground for too long. I went to open silk training at Aracnation that evening.",
+                "class": "three"
+            }
+        ]
+    },
+    "day02": {
+        "date": "October 13, 2017",
+        "title": "Fairy Falls",
+        "description": "",
+        "images": [
+            {
+                "files": ["1.1.jpg", "1.2.jpg", "1.3.jpg"],
+                "caption": "There was some trouble navigating to the Fairy Falls hike but we made it. The waterfall was so worth the four hours round-trip, stairs and stream crossing. How could you resist view?",
+                "class": "portrait-2-landscape-1"
+            },
+            {
+                "files": ["2.1.jpg"],
+                "caption": "Delicious, healthy brunch at a place called Station Cafe. Not picture is the lattes and blueberry bread pudding we had for dessert. Yum.",
+                "class": "one"
+            }
+        ]
+    },
+    "day03": {
+        "date": "October 14, 2017",
+        "title": "Hot Water Beach",
+        "description": "",
+        "images": [
+            {
+                "files": ["1.1.jpg", "1.2.jpg"],
+                "caption": "We went up to the Sky Tower for a panoramic view of Auckland. It was a beautiful sunny day. Bonus: there was no line or crowd of people (hmm, Empire State Building).",
+                "class": "two"
+            },
+            {
+                "files": ["2.1.jpg"],
+                "caption": "We're off to the Coromandel Peninsula. The accommodation was a old-fashioned by well-equipped bungalow by the Hot Water Beach. The air was a bit chilly but the water under the sand was hot. So we dug our own hot tubs.",
+                "class": "one"
+            }
+        ]
+    },
+    "day04": {
+        "date": "October 15, 2017",
+        "title": "Cathedral Cove",
+        "description": "One can't come to the Coromandel Peninsula and not see Cathedral Cove. It was a good two-hour hike since we started at Hahei Beach.",
+        "images": [
+            {
+                "files": ["1.1.jpg", "1.2.jpg", "1.3.jpg"],
+                "caption": "There was a beautiful mini tropical waterfall right on the beach. On the hike, we also passed a very windy grassland with a one-tree hill.",
+                "class": "three"
+            },
+            {
+                "files": ["2.1.jpg"],
+                "caption": "Climbing into a crevice despite the warning.",
+                "class": "one"
+            },
+            {
+                "files": ["3.1.jpg", "3.2.jpg"],
+                "caption": "Gemstone Bay, where the stones were round and colorful, and Stingray Bay with amazing blue water.",
+                "class": "two"
+            }
+        ]
+    },
+    "day05": {
+        "date": "October 16, 2017",
+        "title": "The Lost World adventure",
+        "description": "I'd never thought I'd done something this adventurous.",
+        "images": [
+            {
+                "files": ["1.1.jpg", "1.2.jpg"],
+                "caption": "We lowered from the rope 100 meters down into the cave. The air was so misty it felt like being engulfed in a soft mist pillow. The sharp vertical rock edges and lush greenery contributed to the feeling of descending into a 'lost world' as the original explorers had described.",
+                "class": "two"
+            },
+            {
+                "files": ["2.1.jpg", "2.2.jpg"],
+                "caption": "Inside the pitch-black cave, we sat still and watched glow worms (fly larvea) as the sound of flowing water echoed through.",
+                "class": "two"
+            }
+        ]
+    },
+    "day06": {
+        "date": "October 17, 2017",
+        "title": "",
+        "description": "",
+        "images": [
+            {
+                "files": [],
+                "caption": "",
+                "class": ""
+            }
+        ]
+    },
+    "day07": {
+        "date": "October 18, 2017",
+        "title": "",
+        "description": "",
+        "images": [
+            {
+                "files": [],
+                "caption": "",
+                "class": ""
+            }
+        ]
+    },
+    "day08": {
+        "date": "October 19, 2017",
+        "title": "",
+        "description": "",
+        "images": [
+            {
+                "files": [],
+                "caption": "",
+                "class": ""
+            }
+        ]
+    }
+}
