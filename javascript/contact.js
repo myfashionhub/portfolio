@@ -1,6 +1,6 @@
 function loadTwitter() {
   $.ajax({
-    url: 'http://socialtrackr.herokuapp.com/search/_myfashionhub',
+    url: '//socialtrackr.herokuapp.com/search/_myfashionhub',
     dataType: 'json',
     success: displayTweets
   });
