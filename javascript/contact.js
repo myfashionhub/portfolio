@@ -30,7 +30,8 @@ function displayTweets(data) {
 
 function iconHover() {
   var socialLis = $('.contact').children();
-  _.each(socialLis, function(socialLi) {
+  for (var i = 0; i < socialLis.length; i++) {
+    var socialLi = socialLis[i];
     $(socialLi).mouseenter(function() {
       $(socialLi).animate({
         'top' : '-6px',
@@ -42,5 +43,5 @@ function iconHover() {
         'top' : '0',
         'backgroundColor': 'transparent'});
     });
-  });
+  }
 }

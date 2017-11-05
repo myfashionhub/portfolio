@@ -5,7 +5,8 @@ function menuNav(e) {
   $('main').children().slideUp().appendTo($('.hidden'));
   toggleMenuItem(link);
 
-  var effect = _.sample(['drop', 'clip']);
+  var randomIndex = Math.round(Math.random());
+  var effect = ['drop', 'clip'][randomIndex];
   $('.'+sectionName.replace('menu-','')).
     appendTo($('main')).hide().toggle(effect);
 }
