@@ -90,7 +90,7 @@
             {
                 "files": ["2.1.jpg", "2.2.jpg"],
                 "caption": "Inside the pitch-black cave, we sat still and watched glow worms (fly larvea) as the sound of flowing water echoed through.",
-                "class": "two"
+                "class": "two white border"
             }
         ]
     },

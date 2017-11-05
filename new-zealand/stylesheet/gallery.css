@@ -60,6 +60,15 @@
     width: 100%;
 }
 
+.border img {
+    box-sizing: border-box;
+    border-width: 1px;
+    border-style: solid;
+}
+.border.white img {
+    border-color: #fff;
+}
+
 
 .overlay {
     position: fixed;
