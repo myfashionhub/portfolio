@@ -30,12 +30,26 @@ function Gallery(content) {
                 var src = 'images/' + day + '/' + files[j];
                 var img = $('<img>').attr('src', src);
                 imageGroup.append(img);
+                img.click(that.viewImage);
             }
             var caption = $('<p>').addClass('caption').html(images[i].caption);
 
             dayContainer.append(imageGroup).append(caption);
         }
     }
+
+    this.viewImage = function(event) {
+        var overlay = $('.overlay');
+        var image = event.target;
+        $(image).clone().appendTo(overlay);
+        overlay.addClass('active');
+
+        overlay.click(that.closeImage);
+    };
+
+    this.closeImage = function() {
+        $('.overlay').empty().removeClass('active');
+    };
 
     this.init();
 }
