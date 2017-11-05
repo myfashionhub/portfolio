@@ -30,18 +30,21 @@ function displayTweets(data) {
 
 function iconHover() {
   var socialLis = $('.contact').children();
-  for (var i = 0; i < socialLis.length; i++) {
-    var socialLi = socialLis[i];
-    $(socialLi).mouseenter(function() {
-      $(socialLi).animate({
-        'top' : '-6px',
-        'backgroundColor': 'rgba(255,155,77,0.8)'});
-    });
 
-    $(socialLi).mouseout(function() {
-      $(socialLi).animate({
-        'top' : '0',
-        'backgroundColor': 'transparent'});
-    });
+  var hoverState = function() {
+    $(this).animate({
+      'top' : '-6px',
+      'backgroundColor': 'rgba(255,155,77,0.8)'});
+  };
+
+  var normalState = function() {
+     $(this).animate({
+       'top' : '0',
+       'backgroundColor': 'transparent'});
+   };
+
+  for (var i = 0; i < socialLis.length; i++) {
+    $(socialLis[i]).mouseenter(hoverState);
+    $(socialLis[i]).mouseout(normalState);
   }
 }
