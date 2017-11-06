@@ -52,7 +52,7 @@
 }
 .portrait-1-landscape-2 img:nth-child(2),
 .portrait-1-landscape-2 img:nth-child(3) {
-    height: 252px; /* Half the height of the portrait img */
+    height: 267px; /* Half the height of the portrait img */
 }
 
 .portrait-2-landscape-1 img:first-child,
