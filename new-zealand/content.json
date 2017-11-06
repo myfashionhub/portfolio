@@ -154,7 +154,7 @@
             {
                 "files": ["3.1.jpg", "3.2.jpg"],
                 "caption": "This is a model of a hospital ship, a miracle that saved many soldiers' lives during the campaign.",
-                "class": "two"
+                "class": "two border white"
             }
         ]
     },
