@@ -50,6 +50,10 @@
     width: 50%;
     float: left;
 }
+.portrait-1-landscape-2 img:nth-child(2),
+.portrait-1-landscape-2 img:nth-child(3) {
+    height: 252px; /* Half the height of the portrait img */
+}
 
 .portrait-2-landscape-1 img:first-child,
 .portrait-2-landscape-1 img:nth-child(2) {
