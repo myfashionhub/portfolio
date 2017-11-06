@@ -19,10 +19,10 @@ function Index() {
     };
 
     this.onContentLoad = function(content) {
-        var numPages = Object.keys(content);
+        var numDays = Object.keys(content).length;
 
         // Create new nav + gallery
-        var nav = new Navigation(numPages);
+        var nav = new Navigation(numDays);
         var gallery = new Gallery(content);
     };
 
