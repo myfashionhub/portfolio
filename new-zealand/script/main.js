@@ -23,7 +23,9 @@ function Index() {
 
         // Create new nav + gallery
         var nav = new Navigation(numDays);
-        var gallery = new Gallery(content);
+        var pageNum = nav.currentPage();
+
+        var gallery = new Gallery(content, pageNum);
     };
 
     this.init();

@@ -1,15 +1,18 @@
-function Gallery(content) {
+function Gallery(content, pageNum) {
     var that = this;
     var numDays = 5; // days per page
 
     this.init = function() {
         var days = Object.keys(content);
         for (var i = 0; i < numDays; i++) {
-            this.buildDay(days[i], content[days[i]]);
+            var n = i + (numDays * (pageNum - 1));
+            this.buildDay(days[n], content[days[n]]);
         }
     };
 
     this.buildDay = function(day, content) {
+        if (!content) return;
+
         var container = $('<div>').addClass('day-block');
         var date = $('<div>').addClass('date').html(content.date);
         var title = $('<h3>').addClass('title').html(content.title);

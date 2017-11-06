@@ -22,5 +22,14 @@ function Navigation(numDays) {
         }
     };
 
+    this.currentPage = function() {
+        var pageNum = parseInt(window.location.hash.replace('#', ''));
+        console.log('Page num', pageNum);
+        if (this.pages.indexOf(pageNum) === -1) {
+            pageNum = 1;
+        }
+        return pageNum;
+    };
+
     this.init();
 }
