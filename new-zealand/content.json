@@ -34,7 +34,7 @@
             {
                 "files": ["2.1.jpg"],
                 "caption": "Delicious, healthy brunch at a place called Station Cafe. Not picture is the lattes and blueberry bread pudding we had for dessert. Yum.",
-                "class": "one-half"
+                "class": "one half"
             }
         ]
     },
@@ -100,9 +100,9 @@
         "description": "Welcome to Wellington",
         "images": [
             {
-                "files": ["1.1.jpg", "1.2.jpg"],
-                "caption": "Short morning walk at Queen Elizabeth Park in Paraparaumu",
-                "class": "two"
+                "files": ["1.1.jpg"],
+                "caption": "Short morning walk at Queen Elizabeth Park in Paraparaumu.",
+                "class": "one"
             },
             {
                 "files": ["2.1.jpg"],
@@ -117,7 +117,7 @@
             {
                 "files": ["2.4.jpg"],
                 "caption": "Light lunch at cafe Rata,  located in Zealandia. Shielded from the wind, we enjoyed the beautiful sunshine.",
-                "class": "one"
+                "class": "one half"
             },
             {
                 "files": ["3.1.jpg"],
