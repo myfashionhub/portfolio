@@ -18,17 +18,22 @@ function Navigation(numDays) {
 
             var pageLabel = $('<a>').html(number);
             pageLabel.attr('href', '#' + number);
+            pageLabel.click(that.changePage);
             $('.navigation').append(pageLabel);
         }
     };
 
     this.currentPage = function() {
         var pageNum = parseInt(window.location.hash.replace('#', ''));
-        console.log('Page num', pageNum);
         if (this.pages.indexOf(pageNum) === -1) {
             pageNum = 1;
         }
         return pageNum;
+    };
+
+    this.changePage = function(event) {
+        var pageNum = parseInt(event.target.innerHTML);
+        var gallery = new Gallery(pageNum);
     };
 
     this.init();

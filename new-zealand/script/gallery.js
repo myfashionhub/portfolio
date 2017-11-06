@@ -1,8 +1,10 @@
-function Gallery(content, pageNum) {
+function Gallery(pageNum) {
     var that = this;
     var numDays = 5; // days per page
 
     this.init = function() {
+        $('.content').empty();
+
         var days = Object.keys(content);
         for (var i = 0; i < numDays; i++) {
             var n = i + (numDays * (pageNum - 1));

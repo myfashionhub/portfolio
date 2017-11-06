@@ -1,3 +1,5 @@
+var content;
+
 function Index() {
     var that = this;
 
@@ -11,7 +13,7 @@ function Index() {
             type: 'GET',
             complete: function(xhr) {
                 if (xhr.status === 200) {
-                    var content = JSON.parse(xhr.responseText);
+                    content = JSON.parse(xhr.responseText);
                     that.onContentLoad(content);
                 }
             }
@@ -25,7 +27,7 @@ function Index() {
         var nav = new Navigation(numDays);
         var pageNum = nav.currentPage();
 
-        var gallery = new Gallery(content, pageNum);
+        var gallery = new Gallery(pageNum);
     };
 
     this.init();
