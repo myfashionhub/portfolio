@@ -160,13 +160,28 @@
     },
     "day08": {
         "date": "October 19, 2017",
-        "title": "",
-        "description": "",
+        "title": "Road trip",
+        "description": "We visited Wellington Botanic Garden before embarking on a six-hour drive to Taupo.",
         "images": [
             {
-                "files": [],
+                "files": ["1.1.jpg", "1.2.jpg"],
                 "caption": "",
-                "class": ""
+                "class": "two"
+            },
+            {
+                "files": ["2.1.jpg"],
+                "caption": "I like climbing onto trees, apparently.",
+                "class": "one half"
+            },
+            {
+                "files": ["2.2.jpg"],
+                "caption": "Lunch at Picnic Cafe in the botanic garden.",
+                "class": "one"
+            },
+            {
+                "files": ["3.1.jpg", "3.2.jpg"],
+                "caption": "View of Wellington from above. The old-fashioned cable car, slopy hills and winding streets reminded me of San Francisco.",
+                "class": "two"
             }
         ]
     }
