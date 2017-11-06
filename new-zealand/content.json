@@ -97,12 +97,32 @@
     "day06": {
         "date": "October 17, 2017",
         "title": "",
-        "description": "",
+        "description": "Welcome to Wellington",
         "images": [
             {
-                "files": [],
-                "caption": "",
-                "class": ""
+                "files": ["1.1.jpg", "1.2.jpg"],
+                "caption": "Short morning walk at Queen Elizabeth Park in Paraparaumu",
+                "class": "two"
+            },
+            {
+                "files": ["2.1.jpg"],
+                "caption": "We drove an hour to Wellington. It was oh-so windy. We started the tour of the city at Zealandia, a conservation project with rare birds and insects.",
+                "class": "one"
+            },
+            {
+                "files": ["2.2.jpg", "2.3.jpg"],
+                "caption": "Let's play 'spot the gecko'. Hint: there are two.",
+                "class": "two"
+            },
+            {
+                "files": ["2.4.jpg"],
+                "caption": "Light lunch at cafe Rata,  located in Zealandia. Shielded from the wind, we enjoyed the beautiful sunshine.",
+                "class": "one"
+            },
+            {
+                "files": ["3.1.jpg"],
+                "caption": "After a pole class at Polaris, I reunited with a friend from middle school at Little Penang. There's a new addition among us! Not pictured is delicious Malaysian food.",
+                "class": "one"
             }
         ]
     },
