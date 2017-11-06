@@ -96,8 +96,8 @@
     },
     "day06": {
         "date": "October 17, 2017",
-        "title": "",
-        "description": "Welcome to Wellington",
+        "title": "Welcome to Wellington",
+        "description": "",
         "images": [
             {
                 "files": ["1.1.jpg"],
@@ -128,13 +128,33 @@
     },
     "day07": {
         "date": "October 18, 2017",
-        "title": "",
-        "description": "",
+        "title": "Exhibits",
+        "description": "Our second day in Wellington was met with scattered showers and chilly winds.",
         "images": [
             {
-                "files": [],
-                "caption": "",
-                "class": ""
+                "files": ["1.1.jpg"],
+                "caption": "We visited the Weta Cave in Miramar. It was the headquarter of the Weta Workshop, the studio responsible for Lord of the Rings and The Hobbit triologies. We were shown how costumes, make up and weapons were made, from the Photoshop mocks to the molds and final paint coat.",
+                "class": "one half"
+            },
+            {
+                "files": ["1.2.jpg"],
+                "caption": "Lunch at Engima Cafe.",
+                "class": "one half"
+            },
+            {
+                "files": ["2.1.jpg", "2.2.jpg"],
+                "caption": "Fascinating 'Gallipoli: The Scale of our War' exhibit at the national museum Te Papa. Gallipoli was New Zealand's first campaign in World War I, which took place on the Gallipoli peninsula in the Ottoman Empire in 1915-1916.",
+                "class": "two"
+            },
+            {
+                "files": ["2.3.jpg"],
+                "caption": "Not surprisingly, Weta Cave was responsible for these amazing sculptures and models.",
+                "class": "one"
+            },
+            {
+                "files": ["3.1.jpg", "3.2.jpg"],
+                "caption": "This is a model of a hospital ship, a miracle that saved many soldiers' lives during the campaign.",
+                "class": "two"
             }
         ]
     },
