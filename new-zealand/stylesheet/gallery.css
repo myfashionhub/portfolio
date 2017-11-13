@@ -51,12 +51,12 @@
 }
 
 .portrait-1-landscape-2 img {
-    width: 50%;
+    width: 424px;
     float: left;
 }
 .portrait-1-landscape-2 img:nth-child(2),
 .portrait-1-landscape-2 img:nth-child(3) {
-    height: 267px; /* Half the height of the portrait img */
+    width: 376px;
 }
 
 .portrait-2-landscape-1 img:first-child,
