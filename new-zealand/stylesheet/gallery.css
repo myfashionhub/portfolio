@@ -15,8 +15,7 @@
 }
 
 .image-group {
-    width: 100%;
-    min-width: 300px;
+    width: 800px;
     display: inline-block;
     margin: 1em auto 0 auto;
 }

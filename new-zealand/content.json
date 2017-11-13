@@ -201,12 +201,13 @@
                 "class": "portrait-1-landscape-2"
             },
             {
-                "files": ["3.1.jpg", "3.2.jpg", "3.3.jpg"],
+                "files": ["3.1.jpg", "3.2.jpg"],
                 "caption": "At 4 pm, we visited the Aratiatia Rapids. This is the dam where water from Lake Taupo is let through, creating a great amount of clean and renewable energy.",
-                "class": "portrait-2-landscape-1"
+                "class": "two"
             },
             {
-                "files": ["3.4.jpg"],
+                "files": ["4.1.jpg"],
+                "caption": "A nice relaxing dip in Kerosene Creek - a locals-only spot - to end an active day.",
                 "class": "one"
             }
         ]
