@@ -39,6 +39,10 @@
 .image-group.four img {
     width: 50%;
 }
+.image-group.four img:nth-child(1),
+.image-group.four img:nth-child(2) {
+    margin-bottom: -4px;
+}
 
 .image-group.one.half img {
     width: 50%;
