@@ -160,22 +160,22 @@
     },
     "day08": {
         "date": "October 19, 2017",
-        "title": "Road trip",
-        "description": "We visited Wellington Botanic Garden before embarking on a six-hour drive to Taupo.",
+        "title": "Farewell to Wellington",
+        "description": "",
         "images": [
             {
                 "files": ["1.1.jpg", "1.2.jpg"],
-                "caption": "",
+                "caption": "We visited Wellington Botanic Garden before embarking on a six-hour drive to Taupo. This mini waterfall in the city was pretty sweet.",
                 "class": "two"
             },
             {
                 "files": ["2.1.jpg"],
-                "caption": "I like climbing onto trees, apparently.",
+                "caption": "Climbing onto this tree gave me an Alice in Wonderland feeling (one of my favorite Disney movies growing up).",
                 "class": "one half"
             },
             {
                 "files": ["2.2.jpg"],
-                "caption": "Lunch at Picnic Cafe in the botanic garden.",
+                "caption": "We had lunch at Picnic Cafe in the botanic garden. The Nicoise salad had salmon and poached egg instead of tuna and hardboiled egg. Kiwis do love their poached eggs.",
                 "class": "one"
             },
             {
