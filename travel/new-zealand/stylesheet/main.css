@@ -1,0 +1,27 @@
+body {
+    font-family: 'Roboto Mono';
+    font-size: 16px;
+    margin: 0;
+}
+
+.header {
+    text-align: center;
+}
+
+.navigation {
+    float: right;
+    clear: both;
+    margin: 0 2em 1em 0;
+}
+.navigation a {
+    margin-right: .3em;
+    color: #444;
+    text-decoration: none;
+}
+.navigation a:visited {
+    color: #444;
+}
+.navigation a:hover {
+    color: #888;
+    text-decoration: underline;
+}

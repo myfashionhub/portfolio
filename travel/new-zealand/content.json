@@ -1,4 +1,9 @@
 {
+    "meta": {
+        "dirPath": "../images/2017-new-zealand",
+        "tripName": "New Zealand 2017"
+    },
+    "content": {
     "day01": {
         "date": "October 12, 2017",
         "title": "Hello Auckland",
@@ -233,5 +238,6 @@
                 "class": "two"
             }
         ]
+    }
     }
 }
