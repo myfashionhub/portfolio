@@ -111,15 +111,15 @@
 
       <td>
         <h4>Frontend</h4>
-        <p>Javascript / ES6</p>
         <p>React<p>
-        <p>EmberJS</p>
         <p>AngularJS<p>
+        <p>EmberJS</p>
+        <p>SASS</p>
       </td>
 
       <td>
         <h4>Tools</h4>
-        <p>Docker / bash</p>
+        <p>Docker / bash / Make</p>
         <p>AWS RDS / SQS / Cloudwatch</p>
         <p>Jenkins / BuildKite</p>
         <p>DataDog / LogDNA</p>
@@ -130,19 +130,22 @@
   <h3>Work Experience</h3>
   <ul class="experience">
     <li>
-      <b>Sr Software Engineer</b>, Better.com | November 2019 - Present
+      <b>Senior Software Engineer</b>, Better.com | November 2019 - April 2022
       <ul>
         <li>
-          Serve as tech lead for mid-sized projects, including building a Ticket microservice for managing and resolving customer issues (NodeJS/Typescript, PostgreSQL, TypeORM)
+          Designed, built and maintained the Tickets microservice for tracking and resolving customer issues, ~500 daily users (NodeJS, OpenAPI, PostgreSQL, TypeORM)
         </li>
         <li>
-          Build and maintain the tickets UI (React, Ember), monitor errors and performance using Datadog, PagerDuty
+          Monitored service error rate and performance, triaged/debugged production issues and coordinated incident responses, e.g. rollback, hot fix (Datadog, PagerDuty, BuildKite)
         </li>
         <li>
-          Tackle technical debt through Typescript refactoring, significantly improved the performance of staff member endpoints by reducing the response size
+          Implemented and maintained features for the Tickets UIs (React, legacy EmberJS)
         </li>
         <li>
-          Promote a high level of code standards and increase developer productivity through reviewing PRs, improving linting tools, speeding up Docker builds and writing technical documentation
+          Tackled technical debt and improved productivity through Typescript refactoring, improved speed of staff member endpoints by reducing response size 70%
+        </li>
+        <li>
+          Promoted a high level of code standards through writing unit/integration tests, reviewing PRs, improving linting tools (e.g. ESLint Github action), and writing technical documentation
         </li>
       </ul>
     </li>
@@ -150,16 +153,16 @@
       <b>Lead Software Engineer</b>, Narrativ | April 2018 - October 2019
       <ul>
         <li>
-          Played a key role in sprint planning, refining priorities and spec'ing out technical requirements
+          Restructured event schemas and queries for Publisher Dashboard to provide real-time stats (for editorials/affiliate links, attributed revenue) and actionable insights to publisher clients (Python/Flask, Snowflake, PostgreSQL)
         </li>
         <li>
-          Spearheaded the frontend React migration (from AngularJS) and rebuilding the client-facing product and earning stats dashboard
+           Architected and implemented Cart Explorer MVP, which allowed publishers to make informed editorial decisions by searching product, retailer and revenue data searchable (Python/Flask, ElasticSearch)
         </li>
         <li>
-          Restructured event schemas in order to provide real-time stats and actionable insights to clients (Python, Apache Storm, ElasticSearch)
+           Organized workflow and provided guidance to four ICs, developing new features while paring down tech debt
         </li>
         <li>
-          Continuously upheld code quality and standards, facilitated learning and collaboration throughout the engineering team
+          Spearheaded the redesign/migration of the admin dashboard from AngularJS to React
         </li>
       </ul>
     </li>
@@ -168,13 +171,13 @@
       <b>Software Engineer</b>, Narrativ | August 2016 - April 2018
       <ul>
         <li>
-          Built and maintained dashboard app utilized by admins and clients to configure auctions and monitor ad spend/earnings (Angular 1.5, Python/Flask)
+          Updated stats aggregation/calculation in admin dashboard endpoints (Python, Flask)
         </li>
         <li>
-          Wrote Javascript widgets and tags that run real-time auctions on page and track customer/product statistics (Node, Javascript)
+          Built Javascript tags and widgets that run real-time auctions and collect user stats on publishers’ and merchants’ websites (Javascript ES6, NodeJS)
         </li>
         <li>
-          Collaborated with and mentored other engineers through code reviews, upheld code quality and reliability through refactoring and writing automated tests
+          Raised the bar for code quality through PR reviews, refactors, automated tests, and documentation
         </li>
       </ul>
     </li>
@@ -183,16 +186,16 @@
       <b>Software Engineer</b>, Sportsrocket | June 2015 - August 2016
       <ul>
         <li>
-          Part of four-people backend team that built and maintained the Bedrocket API and various workers that carry out video ingestion/distribution tasks (Ruby/Rails)
+          Built and maintained the service-oriented Sportsrocket API and its queue-based processes (Ruby/Rails, SNS/SQS)
         </li>
         <li>
-          Constructed Rails service that utilized GeoIP to restrict access to geographically restricted and paid content
+          Worked on several Rails microservices for user authentication, payments and geogating
         </li>
         <li>
-          Built new features and refactored the video content management system (AngularJS), implemented ad playback for the custom HTML5 video player
+          Implemented analytics pipeline which processed 800k+ daily events (AWS Lambda/Kinesis, Redshift)
         </li>
         <li>
-          Revamped the video analytics process using multiple AWS services and databases (Kinesis, Lambda, Redshift, ElasticSearch)
+          Added features for the admin video CMS, e.g. download/sync videos to YouTube, Twitter (AngularJS)
         </li>
       </ul>
     </li>
@@ -200,14 +203,15 @@
     <li>
       <b>Junior Software Engineer</b>, Waywire | Sept 2014 - May 2015
       <ul>
-        <li>Refactored and styled Waywire's CMS admin application (Javascript, SASS)</li>
-        <li>Implemented front-end features (carousel, endless scroll) and constructed mobile responsive pages Waywire.com & clients' sites</li>
-        <li>Debugged and added features to Waywire's admin tool (Angular, Perl/Mason)</li>
+        Built features for Waywire.com video discovery homepage and its admin video CMS (Javascript, Angular)
       </ul>
     </li>
 
     <li>
       <b>Email Marketing Associate</b>, Vendome Group | 2013 - 2014
+      <ul>
+        Created and executed HTML email campaigns, managed 200k-contact audience (Dreamweaver, Silverpop)
+      </ul>
     </li>
   </ul>
 
