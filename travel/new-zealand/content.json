@@ -1,7 +1,9 @@
 {
     "meta": {
         "dirPath": "../images/2017-new-zealand",
-        "tripName": "New Zealand 2017"
+        "tripName": "New Zealand 2017",
+        "numPages": 2,
+        "perPage": 5
     },
     "content": {
     "day01": {

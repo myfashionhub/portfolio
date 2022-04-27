@@ -21,13 +21,11 @@ function Index() {
     };
 
     this.onContentLoad = function(data) {
-        var numSections = Object.keys(data.content).length;
-
         // Create new nav + gallery
-        var nav = new Navigation(numSections);
+        var nav = new Navigation(data.meta.numPages);
         var pageNum = nav.currentPage();
 
-        var gallery = new Gallery(data, pageNum);
+        new Gallery(data, pageNum);
     };
 
     this.init();

@@ -1,6 +1,5 @@
 function Gallery(data, pageNum) {
     var that = this;
-    var numSections = 5; // sections per page
     const dirPath = data.meta.dirPath;
 
     this.init = function() {
@@ -8,6 +7,8 @@ function Gallery(data, pageNum) {
 
         const content = data.content;
         const sections = Object.keys(content);
+        const numSections = data.meta.perPage;
+
         for (var i = 0; i < numSections; i++) {
             var n = i + (numSections * (pageNum - 1));
             this.buildSection(sections[n], content[sections[n]]);

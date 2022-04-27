@@ -1,21 +1,15 @@
-function Navigation(numDays) {
-    this.numDays = numDays;
+function Navigation(numPages) {
+    this.numPages = numPages;
 
     this.init = function() {
-        this.perPage = 5;
-        this.numPages = Math.ceil(this.numDays / this.perPage);
         this.pages = [];
 
-        this.createNav();
-    };
-
-    this.createNav = () => {
         for (var i = 0; i < this.numPages; i++) {
             var number = i + 1;
             this.pages.push(number);
 
             var pageLabel = $('<a>').html(number);
-            pageLabel.attr('href', '#' + number);
+            pageLabel.attr('href', `#${number}`);
             pageLabel.click(this.changePage);
             $('.navigation').append(pageLabel);
         }
@@ -33,7 +27,7 @@ function Navigation(numDays) {
         var pageNum = parseInt(event.target.innerHTML);
 
         index.loadJson((data) => {
-            var gallery = new Gallery(data, pageNum);
+            new Gallery(data, pageNum);
         });
     };
 
