@@ -67,6 +67,15 @@
     width: 100%;
 }
 
+.landscape-1-portrait-2 img:first-child {
+    width: 100%;
+}
+.landscape-1-portrait-2 img:nth-child(2),
+.landscape-1-portrait-2 img:nth-child(3) {
+    width: 50%;
+    float: left;
+}
+
 .border img {
     box-sizing: border-box;
     border-width: 1px;

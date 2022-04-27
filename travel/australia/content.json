@@ -1,0 +1,150 @@
+{
+    "meta": {
+        "dirPath": "../images/2020-australia",
+        "tripName": "Australia 2020",
+        "description": "Epic pre-Covid trip",
+        "numPages": 3,
+        "perPage": 1
+    },
+    "content": {
+        "sydney": {
+            "date": "January 2020",
+            "title": "Sydney, NSW",
+            "description": "We happened to arrive in Sydney on Australia Day (Jan 26), also seemingly the hottest day of the year.",
+            "images": [
+                {
+                    "files": ["1.1-royal-botanic-garden.jpg", "1.2-royal-botanic-garden.jpg"],
+                    "caption": "Defying the heat, we made a pit stop at the beautiful Royal Botanic Garden.",
+                    "class": "two"
+                },
+                {
+                    "files": ["1.3-cbd.jpg"],
+                    "caption": "Hustle and bustle in the CBD.",
+                    "class": "one half"
+                },
+                {
+                    "files": ["2.3-blue-mountain.jpg"],
+                    "caption": "The next day, we went on a tour in Blue Mountain, seeing magnificant cliffs and waterfalls.",
+                    "class": "one"
+                },
+                {
+                    "files": [
+                        "2.1-blue-mountain.jpg", "2.2-blue-mountain.jpg"],
+                    "class": "two"
+                },
+                {
+                    "files": ["3.1-darling-harbour.jpg"],
+                    "caption": "Checked out Darling Harbour. Coming from NYC, it was just amazing how spacious and clean public spaces were. There're bathrooms and water fountains everywhere we went.",
+                    "class": "one"
+                },
+                {
+                    "files": ["3.3-darling-harbour.jpg", "3.4-darling-harbour.jpg"],
+                    "caption": "Checked out Darling Harbour. Coming from NYC, it was just amazing how spacious and clean public spaces were. There're bathrooms and water fountains everywhere we went.",
+                    "class": "two"
+                },
+                {
+                    "files": ["3.3-opera.jpg", "3.4-opera.jpg", "3.5-opera.jpg", "3.6-opera.jpg"],
+                    "caption": "Went to see La Boheme at Sydney Opera House. It was a perfect cool evening that ended with pizza at a dive bar.",
+                    "class": "four"
+                },
+                {
+                    "files": ["4.4-vietnamese-food.jpg", "4.5-brunch.jpg"],
+                    "caption": "So much good brunch and Asian food here. Vietnamese was a must!",
+                    "class": "one half"
+                },
+                {
+                    "files": ["4.2-icebergs-pool.jpg"],
+                    "class": "one"
+                },
+                {
+                    "files": ["4.1-bondi.jpg", "4.3-icebergs-pool.jpg"],
+                    "caption": "Ventured out to Bondi beach on an overcast day. Icebergs was the sleekest infinity pool perched on the side of the cliff. It was as icy as the name suggested.",
+                    "class": "two"
+                },
+                {
+                    "files": ["5.1-taronga-zoo.jpg", "5.2-taronga-zoo.jpg", "5.3-taronga-zoo.jpg", "5.4-taronga-zoo.jpg"],
+                    "caption": "The last day was spent at Taronga Zoo. So many animals from all the continents - so impressive! And, of course, kangaroos for days.",
+                    "class": "four"
+                }
+            ]
+        },
+        "brisbane": {
+            "date": "February 2020",
+            "title": "Brisbane, Queensland",
+            "description": "Bidded farewell to my parents, we were off to gloriously sunny Brisbane.",
+            "images": [
+                {
+                    "files": ["1.1-story-bridge.jpg", "1.3-eagle-street-pier.jpg", "1.4-eagle-street-pier.jpg"],
+                    "caption": "Photogenic Story Bridge and a breezy stroll on the riverside.",
+                    "class": "landscape-1-portrait-2"
+                },
+                {
+                    "files": ["1.2-eagle-street-pier.jpg"],
+                    "caption": "Eagle Street Pier was vibing.",
+                    "class": "one half"
+                },
+                {
+                    "files": ["1.5-cbd.jpg"],
+                    "caption": "Many cute cafes in the CBD.",
+                    "class": "one half"
+                },
+                {
+                    "files": ["2.1-south-bank.jpg"],
+                    "caption": "Lovely afternoon in South Bank.",
+                    "class": "one"
+                },
+                {
+                    "files": ["3.1-paddington.jpg"],
+                    "caption": "I loved walking around Queen Street Mall and vintage shopping in Paddington.",
+                    "class": "one half"
+                },
+                {
+                    "files": ["4.1-lokal-co.jpg"],
+                    "caption": "We really enjoyed the healthy organic brunch at Lokal + Co in West End.",
+                    "class": "one half"
+                }
+            ]
+        },
+        "melbourne": {
+            "date": "February 2020",
+            "title": "Melbourne, Victoria",
+            "description": "We were shocked by the 30-degree drop in temperature once we landed in Melbourne. Definitely didn't pack for this.",
+            "images": [
+                {
+                    "files": ["1.1-docklands.jpg"],
+                    "caption": "We stayed in Docklands, which was connected to the CBD by a free tram.",
+                    "class": "one"
+                },
+                {
+                    "files": ["1.2-docklands.jpg"],
+                    "class": "one half"
+                },
+                {
+                    "files": ["1.3-ngv.jpg", "1.4-ngv.jpg", "1.5-ngv.jpg"],
+                    "caption": "Lovely exhibits at National Gallery of Victoria.",
+                    "class": "portrait-2-landscape-1"
+                },
+                {
+                    "files": ["3.1-hosier-lane.jpg", "3.2-hosier-lane.jpg", "3.3-hosier-lane.jpg"],
+                    "caption": "Gritty graffiti at Hosier Lane.",
+                    "class": "portrait-2-landscape-1"
+                },
+                {
+                    "files": ["3.4-yarra-river.jpg"],
+                    "caption": "Melbourne by night, shining down on the Yarra River.",
+                    "class": "one half"
+                },
+                {
+                    "files": ["4.1-coops-shot-tower.jpg", "4.2-stpauls.jpg", "4.2-state-library-victoria.jpg"],
+                    "caption": "Coop's Shot Tower in Melbourne Central and St Paul's Cathedral.",
+                    "class": "two"
+                },
+                {
+                    "files": ["4.3-state-library.jpg", "4.4-state-library.jpg"],
+                    "caption": "The magnificient interior of State Library Victoria.",
+                    "class": "two"
+                }
+            ]
+        }
+    }
+}
