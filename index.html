@@ -18,9 +18,8 @@
   <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
 
   <script type="text/javascript" src="javascript/ga.js"></script>
-  <script type="text/javascript" src="javascript/nav.js"></script>
   <script type="text/javascript" src="javascript/contact.js"></script>
-  <script type="text/javascript" src="javascript/script.js"></script>
+  <script type="text/javascript" src="javascript/nav.js"></script>
 </head>
 
 
@@ -31,7 +30,7 @@
 
     <ul class="menu">
       <li>
-        <a href="index.html" id="menu-about">
+        <a href="#about" id="menu-about">
           About me
         </a>
       </li>
@@ -41,15 +40,19 @@
         </a>
       </li>
 
-      <li>
-        <a href="/new-zealand" target="_blank">
+      <li id="menu-travel">
+        <a href="#">
           Travel
         </a>
       </li>
     </ul> <!--end of menu -->
   </nav>
 
-
+  <!-- shown on hover -->
+  <ul class="dropdown-menu hidden">
+    <li><a href="/travel/2020-australia" target="_blank">Australia 2020</a></li>
+    <li><a href="/travel/2017-new-zealand" target="_blank">New Zealand 2017</a></li>
+  </ul>
 
 <div class="container">
   <main>
