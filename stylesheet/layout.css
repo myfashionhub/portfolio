@@ -64,8 +64,23 @@ nav a:hover, nav a.current {
   border-bottom: 2px #FF4500 solid;
 }
 
-/* MAIN */
+.dropdown-menu {
+  position: absolute;
+  top: 55px; /* below Travel heading  */
+  right: 15px;
+  z-index: 2;
+  max-width: 200px;
+  margin: 0;
+  padding: 15px;
+  list-style-type: none;
+  text-align: right;
+  background-color: #f5f5f5;
+}
+.dropdown-menu.hidden {
+  display: none;
+}
 
+/* MAIN */
 main {
   width: 80%;
   max-width: 800px;

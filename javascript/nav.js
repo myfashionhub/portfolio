@@ -40,10 +40,25 @@ function MainNav() {
   };
 
   this.showDropdownMenu = function () {
-    console.warn('showDropdownMenu')
-    $('#menu-travel a').hover(function () {
-        console.warn('show menu')
-       // dropdown-menu
+    $('a#menu-travel').on({
+      mouseenter: function () {
+        $('.dropdown-menu').removeClass('hidden');
+      },
+      mouseleave: function (e) {
+        const target = e.target;
+        if (target.id !== 'menu-travel') {
+          $('.dropdown-menu').addClass('hidden');
+        }
+      },
+    });
+
+    $('.dropdown-menu').on({
+      mouseleave: function () {
+        $('.dropdown-menu').addClass('hidden');
+      },
+      click: function () {
+        $('.dropdown-menu').addClass('hidden');
+      },
     });
   };
 }
