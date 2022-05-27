@@ -1,4 +1,4 @@
-function Gallery(data, pageNum) {
+function Gallery(dirName, data, pageNum) {
     var that = this;
 
     this.init = function() {
@@ -34,7 +34,7 @@ function Gallery(data, pageNum) {
             var imageGroup = $('<div>').addClass('image-group').addClass(groupClass);
 
             for (var j = 0; j < files.length; j++) {
-                const path = `./images/${section}/${files[j]}`;
+                const path = `${dirName}/images/${section}/${files[j]}`;
                 var img = $('<img>').attr('src', path);
                 imageGroup.append(img);
                 img.click(that.viewImage);

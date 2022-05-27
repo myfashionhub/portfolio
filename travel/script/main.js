@@ -1,15 +1,17 @@
 function Index() {
-    var that = this;
+    const that = this;
+    let dirName;
 
     this.init = function() {
         this.loadJson(this.onContentLoad);
     };
 
     this.loadJson = function(callback) {
-        const paths = window.location.pathname.split('/');
+        const params = new URLSearchParams(window.location.search);
+        dirName = params.get('trip');
 
         $.ajax({
-            url: `./content.json`,
+            url: `${dirName}/content.json`,
             type: 'GET',
             complete: function(xhr) {
                 if (xhr.status === 200) {
@@ -22,10 +24,14 @@ function Index() {
 
     this.onContentLoad = function(data) {
         // Create new nav + gallery
-        var nav = new Navigation(data.meta.numPages);
-        var pageNum = nav.currentPage();
+        const nav = new Navigation(data.meta.numPages);
+        const pageNum = nav.currentPage();
 
-        new Gallery(data, pageNum);
+        const { tripName, description } = data.meta;
+        $('header .title').html(tripName);
+        $('header .description').html(description);
+
+        new Gallery(dirName, data, pageNum);
     };
 
     this.init();

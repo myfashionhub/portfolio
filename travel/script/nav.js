@@ -1,9 +1,12 @@
 function Navigation(numPages) {
     this.numPages = numPages;
+    this.pages = [];
 
     this.init = function() {
-        this.pages = [];
+        this.generatePages();
+    };
 
+    this.generatePages = function() {
         // Generate page numbers
         for (let i = 0; i < this.numPages; i++) {
             const pageNum = i + 1;
@@ -15,7 +18,7 @@ function Navigation(numPages) {
             pageLabel.click(this.changePage);
             $('.navigation').append(pageLabel);
         }
-    };
+    }
 
     this.currentPage = function() {
         let pageNum = parseInt(window.location.hash.replace('#', ''));
@@ -32,9 +35,11 @@ function Navigation(numPages) {
         $('.navigation .active').removeClass('active');
         $(event.target).addClass('active');
 
+        const params = new URLSearchParams(window.location.search);
+        const dirName = params.get('trip');
         const pageNum = parseInt(event.target.innerHTML);
         index.loadJson((data) => {
-            new Gallery(data, pageNum);
+            new Gallery(dirName, data, pageNum);
         });
     };
 
