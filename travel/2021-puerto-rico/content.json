@@ -1,0 +1,97 @@
+{
+    "meta": {
+        "tripName": "Puerto Rico 2021",
+        "description": "Babymoon #1",
+        "numPages": 1,
+        "perPage": 1
+    },
+    "content": {
+        "": {
+            "date": "May 2021",
+            "title": "Condado / Old San Juan",
+            "description": "A very relaxing, slow-paced one-week vacation.",
+            "images": [
+                {
+                    "files": ["1.1-dinner.jpg", "1.2-dinner.jpg"],
+                    "caption": "For our first dinner on the island, we had fried pork mofongo and garlic shrimp at Waiter's on Ashford Avenue in Condado Beach.",
+                    "class": "two"
+                },
+                {
+                    "files": ["2.1-charco-prieto.jpg"],
+                    "caption": "The next day we went on a day trip to the Charco Prieto secret waterfall in Bayamon. (We chose this tour because El Yunque was closed due to Covid.)",
+                    "class": "one"
+                },
+                {
+                    "files": ["2.2-charco-prieto.jpg", "2.3-charco-prieto.jpg"],
+                    "caption": "The hike was steep in places and slippery/wet because of rain showers. But the waterfall was totally worth it!",
+                    "class": "two"
+                },
+                {
+                    "files": ["3.1-condado-beach.jpg", "3.2-condado-beach.jpg"],
+                    "caption": "Sunset walk on the beach before getting poke for dinner.",
+                    "class": "two"
+                },
+                {
+                    "files": ["4.1-san-felipe.jpg", "4.5-san-felipe.jpg", "4.3-san-felipe.jpg", "4.4-san-felipe.jpg"],
+                    "caption": "On our third day, we ventured to Old San Juan to visit Castillo San Felipe del Morro. It was super windy up there but the view of the ocean from the fort was absolutely breathtaking",
+                    "class": "four"
+                },
+                {
+                    "files": ["4.2-san-felipe.jpg"],
+                    "caption": "Known simply as El Morro, the fort served as an important military outpost for Spain (16th - 19th century) and later the United States (19th - 20th century).",
+                    "class": "one half"
+                },
+                {
+                    "files": ["5.1-old-sanjuan.jpg", "5.2-old-sanjuan.jpg"],
+                    "caption": "Narrow cobblestone streets with iconic colorful houses in Old San Juan.",
+                    "class": "two"
+                },
+                {
+                    "files": ["5.3-old-sanjuan.jpg", "5.4-old-sanjuan.jpg"],
+                    "caption": "Residents in San Juan would leave out food and water for stray cats, which could lead to overpopulation. Thankfully the nonprofit Save a Gato trapped and neutered/spayed stray cats so they wouldn't breed.",
+                    "class": "two"
+                },
+                {
+                    "files": ["6.1-san-cristobal.jpg", "6.2-san-cristobal.jpg"],
+                    "caption": "The next day we came back to see Castillo San Cristobal.",
+                    "class": "two"
+                },
+                {
+                    "files": ["6.3-st-germain.jpg"],
+                    "caption": "It was a good day because I found my absolute favorite lunch place called St Germain. With white interiors and refreshing drinks, it was such a haven in the mid-day Carribean sun.",
+                    "class": "one half"
+                },
+                {
+                    "files": ["7.1-paseo-princesa.jpg"],
+                    "caption": "We walked everywhere from Calle de la Fortaleza to Paseo de la Princesa.",
+                    "class": "one half"
+                },
+                {
+                    "files": ["8.1-escambron-beach.jpg"],
+                    "caption": "Our second hotel was located in Miramar, a very bougie neighborhood in the up-and-coming Santurce barrio. We spent the next afternoon chilling at Escambrón Beach and had dinner at Casita Miramar.",
+                    "class": "one half"
+                },
+                {
+                    "files": ["9.2-museo-americas.jpg", "9.3-museo-americas.jpg"],
+                    "caption": "On the last day we visited Museo de las Americas in Old San Juan. It was fascinating to learn about the blend of Taino (Native Americans), Spanish, and African cultures, the delicious cuisines born out of it, as well as the brutal history of colonial exploits and the slave trade.",
+                    "class": "two"
+                },
+                {
+                    "files": ["9.1-museo-americas.jpg", "9.2-st-germain.jpg"],
+                    "caption": "I love the exuberant colors of the display. Of course we also went back to our favorite St Germain for lunch. It was the most delicious kale-chick peas-sweet potato salad I'd ever had.",
+                    "class": "two"
+                },
+                {
+                    "files": ["10.1-sail.jpg", "10.2-sail.jpg"],
+                    "caption": "An island trip was not complete without a sail.",
+                    "class": "two"
+                },
+                {
+                    "files": ["10.3-sail.jpg"],
+                    "caption": "Cheers to a wonderful vacation.",
+                    "class": "one half"
+                }
+            ]
+        }
+    }
+}
