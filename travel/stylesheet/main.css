@@ -21,7 +21,8 @@ body {
 .navigation a:visited {
     color: #444;
 }
-.navigation a:hover {
-    color: #888;
+.navigation a:hover,
+.navigation a.active {
+    color: #FF4500;
     text-decoration: underline;
 }
