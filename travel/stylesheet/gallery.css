@@ -76,6 +76,26 @@
     float: left;
 }
 
+.landscape-2-stack-portrait-1 img:first-child,
+.landscape-2-stack-portrait-1 img:nth-child(3) {
+    width: 47%;
+    float: left;
+}
+.landscape-2-stack-portrait-1 img:nth-child(2) {
+    width: 53%;
+    float: right;
+}
+
+.landscape-2-stack-portrait-1-2 img:first-child,
+.landscape-2-stack-portrait-1-2 img:nth-child(3) {
+    width: 45.5%;
+    float: left;
+}
+.landscape-2-stack-portrait-1-2 img:nth-child(2) {
+    width: 54.5%;
+    float: right;
+}
+
 .border img {
     box-sizing: border-box;
     border-width: 1px;

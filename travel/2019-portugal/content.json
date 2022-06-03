@@ -1,0 +1,261 @@
+{
+    "meta": {
+        "tripName": "Portugal 2019",
+        "description": "Three-week remote working trip with Hacker Paradise",
+        "numPages": 6,
+        "perPage": 1
+    },
+    "content": {
+        "alcantara": {
+            "date": "Sept 2019",
+            "title": "Alcântara, Lisbon",
+            "description": "I was set up in a rustic Airbnb in Alcântara, a hipster neighborhood in East Lisbon.",
+            "images": [
+                {
+                    "files": ["1.1-apartment.jpg", "1.2-apartment.jpg", "1.4-apartment.jpg", "1.3-apartment.jpg"],
+                    "caption": "Bunk bed - how quaint! My roomate and I did enjoy a light-filled living room and spacious backyard. The kitchen was my least favorite part because it was dark and dingy. Luckily Uber Eats meant I had to do little cooking during my time there.",
+                    "class": "four"
+                },
+                {
+                    "files": ["1.5-apartment.jpg"],
+                    "caption": "I found a cute succulent at Lidl and decided it was going to be my silent companion for three weeks.",
+                    "class": "one half"
+                },
+                {
+                    "files": ["2.1-lx-factory.jpg", "2.3-lx-factory.jpg", "2.4-lx-factory.jpg", "2.2-lx-factory.jpg"],
+                    "caption": "Our coworking space was located in LxFactory, a converted factories filled with shops, cafes and restaurants.",
+                    "class": "four"
+                },
+                {
+                    "files": ["2.5-lx-factory.jpg"],
+                    "caption": "LxFactory didn't have the best food. The restaurants were a little pricey because they were targeted to tourists. However, I found this rooftop bar Rio Maravilha to be quite charming at sunset.",
+                    "class": "one"
+                },
+                {
+                    "files": ["2.6-lx-factory.jpg", "2.7-lx-factory.jpg"],
+                    "class": "two"
+                },
+                {
+                    "files": ["3.1-village-underground.jpg", "3.2-village-underground.jpg", "3.3-village-underground.jpg"],
+                    "caption": "Toward the Tagus river there was Village Underground, an industrial junk yard repurposed into graffiti and art.",
+                    "class": "landscape-1-portrait-2"
+                }
+            ]
+        },
+        "alfama": {
+            "date": "Sept 2019",
+            "title": "Alfama, Lisbon",
+            "description": "The old quarter of Lisbon is a maze of narrow cobblestone streets and traditional houses meandering up steep hill from the Tagus river to the Sao Jorge castle.",
+            "images": [
+                {
+                    "files": ["1.3-alfama-streets.jpg", "1.4-alfama-streets.jpg"],
+                    "caption": "I loved peering through the gates to get a glimpse of the water in the distance.",
+                    "class": "two"
+                },
+                {
+                    "files": ["1.2-alfama-hill.jpg"],
+                    "caption": "Layers on layers of brick-roofed houses spotted from Santa Luzia view point.",
+                    "class": "one"
+                },
+                {
+                    "files": ["1.6-alfama-streets.jpg", "1.7-alfama-streets.jpg"],
+                    "caption": "Tram 28 shuttles tourists through the historic center of Lisbon.",
+                    "class": "two"
+                },
+                {
+                    "files": ["1.1-alfama-hill.jpg", "1.3-alfama-hill.jpg"],
+                    "caption": "One of my favorite spot was a rooftop bar called TOPO in Martim Moniz square. It was the perfect spot to chill with a cocktail as the sun set.",
+                    "class": "one"
+                },
+                {
+                    "files": ["2.1-brunch.jpg", "2.2-brunch.jpg"],
+                    "caption": "Brunch at the vintage Marcelino Pão & Vinho.",
+                    "class": "two"
+                },
+                {
+                    "files": ["3.1-sao-jorge.jpg", "3.2-sao-jorge.jpg"],
+                    "caption": "Made it to Castelo de São Jorge.",
+                    "class": "one"
+                },
+                {
+                    "files": ["4.3-graca.jpg", "4.1-graca.jpg", "4.2-graca.jpg"],
+                    "caption": "Catching sunset near Miradouro de Graça.",
+                    "class": "landscape-1-portrait-2"
+                }
+            ]
+        },
+        "caisdosodre": {
+            "date": "Sept 2019",
+            "title": "Cais do Sodré, Lisbon",
+            "description": "",
+            "images": [
+                {
+                    "files": ["1.2-pink-street.jpg"],
+                    "caption": "A trendy nightlife district that still retains an edgy atmosphere and gritty appearance.",
+                    "class": "one"
+                },
+                {
+                    "files": ["1.1-pink-street.jpg"],
+                    "caption": "Pink Street, the city's former red light district was transformed into its nightlife center.",
+                    "class": "one half"
+                },
+                {
+                    "files": ["1.3-lust-in-rio.jpg", "1.4-lust-in-rio.jpg"],
+                    "caption": "We spent an evening dancing at Lust in Rio.",
+                    "class": "two"
+                },
+                {
+                    "files": ["2.1-mercado-ribeira.jpg", "2.2-mercado-ribeira.jpg"],
+                    "caption": "Nearby there were also the traditional market Mercado da Ribeira and Time Out Market food court.",
+                    "class": "two"
+                },
+                {
+                    "files": ["3.1-praca-comercio.jpg", "3.3-praca-comercio.jpg", "3.2-praca-comercio.jpg"],
+                    "caption": "The iconic Praça do Comércio. I was convinced that it was perpetually sunny in Lisbon",
+                    "class": "landscape-2-stack-portrait-1"
+                },
+                {
+                    "files": ["4.1-sail.jpg", "4.2-sail.jpg", "4.3-sail.jpg"],
+                    "caption": "Took a sailing tour (with unlimited wine) and passed by the Padrão dos Descobrimentos (Monument to the Discoveries) in Belém.",
+                    "class": "three"
+                },
+                {
+                    "files": ["4.4-sail.jpg"],
+                    "caption": "You could spot Cristo Rei (Christ the King) in the south (Almada city), which was inspired by the Christ the Redeemer statue of Rio de Janeiro.",
+                    "class": "one"
+                }
+            ]
+        },
+        "misc": {
+            "date": "Sept 2019",
+            "title": "Around Lisbon",
+            "description": "",
+            "images": [
+                {
+                    "files": ["1.3-tile-museum.jpg", "1.4-tile-museum.jpg", "1.5-tile-museum.jpg", "1.1-tile-museum.jpg"],
+                    "caption": "I didn't visit a lot of museums in Lisbon but the tile museum was a must-see (Museu Nacional do Azulejo). Like codfish and Fado, these ceramic glazed tiles are a Portugese classic.",
+                    "class": "two"
+                },
+                {
+                    "files": ["1.6-tile-museum.jpg", "1.7-tile-museum.jpg"],
+                    "class": "two"
+                },
+
+                {
+                    "files": ["2.1-amoireras.jpg", "2.2-amoireras.jpg"],
+                    "caption": "Panoramic view of the city from the top of Amoreiras shopping center in Campo de Ourique.",
+                    "class": "one"
+                },
+                {
+                    "files": ["3.1-torre-belem.jpg", "3.3-torre-belem.jpg"],
+                    "caption": "Belém Tower was the only place I visited that was West of my Alcantara neighborhood. It was located in Belém, home of the famous pasteis de Belem or pasteis de nata (egg custard tart).",
+                    "class": "two"
+                },
+                {
+                    "files": ["3.2-torre-belem.jpg"],
+                    "caption": "Padrão dos Descobrimentos celebrates the Portugese Age of Discovery in the 15th and 16th centuries.",
+                    "class": "one"
+                },
+                {
+                    "files": ["4.1-octopus.jpg", "4.3-vegan.jpg"],
+                    "caption": "I had various cod dishes while in Portugal (e.g. bacalhau à brás, bolinhos de bacalhau). But the best thing I had were octopus and pork stew.",
+                    "class": "two"
+                },
+                {
+                    "files": ["4.2-asian.jpg"],
+                    "caption": "I always crave Asian food whenever I travel. I was ecstatic to finally make it to Boa Bao in Baixa (downtown), where I had really delicious pad Thai.",
+                    "class": "one half"
+                }
+            ]
+        },
+        "sintra": {
+            "date": "Sept 2019",
+            "title": "Sintra",
+            "description": "A major tourist destination famed for its picturesqueness and historic palaces, castles, parks and gardens.",
+            "images": [
+                {
+                    "files": ["1.1-quinta-regaleira.jpg"],
+                    "caption": "My first destination was Quinta da Regaleiria, a Disney-like gothic palace.",
+                    "class": "one"
+                },
+                {
+                    "files": ["1.3-quinta-regaleira.jpg", "1.4-quinta-regaleira.jpg"],
+                    "caption": "The tour was organized by We Hate Tourism Tours, headquartered in LxFactory - highly recommended.",
+                    "class": "two"
+                },
+                {
+                    "files": ["1.2-quinta-regaleira.jpg", "1.5-quinta-regaleira.jpg", "1.6-quinta-regaleira.jpg"],
+                    "caption": "The palace is known for its extensive gardens and system of tunnels. The Initiation Wells were used both for storing water and ceremonial purposes.",
+                    "class": "landscape-1-portrait-2"
+                },
+                {
+                    "files": ["1.7-quinta-regaleira.jpg"],
+                    "caption": "I was definitely not lost trying to figure out the tunnel entry points.",
+                    "class": "one half"
+                },
+                {
+                    "files": ["2.1-cabo-roca.jpg", "2.3-cabo-roca.jpg", "2.2-cabo-roca.jpg"],
+                    "caption": "On the way back to Lisbon, we made a pit stop at Cabo da Roca, the westernmost point of continental Europe.",
+                    "class": "landscape-2-stack-portrait-1"
+                },
+                {
+                    "files": ["2.4-cascais.jpg"],
+                    "caption": "The beach in Cascais was really popular on a sunny late-summer afternoon.",
+                    "class": "one"
+                },
+                {
+                    "files": ["3.4-pena-palace.jpg"],
+                    "caption": "Every day I'd spent in Lisbon up to this point was super sunny. So imagined my surprise when my return to Sintra was shrouded in rain and fog.",
+                    "class": "one"
+                },
+                {
+                    "files": ["3.1-pena-palace.jpg", "3.2-pena-palace.jpg", "3.3-pena-palace.jpg", "3.5-pena-palace.jpg"],
+                    "caption": "There were crowds at the palace despite the bad weather. You could see why from the architecture and iconic colors.",
+                    "class": "two"
+                }
+
+            ]
+        },
+        "porto": {
+            "date": "Sept 2019",
+            "title": "Porto, Portugal",
+            "description": "Hacker Paradise always organized a weekend trip away, and Porto was 2.5 hours away by train.",
+            "images": [
+                {
+                    "files": ["1.1-food.jpg", "1.2-food.jpg"],
+                    "caption": "Our walking food tour took us to the giant market Mercado do Bolhão. We sampled a lot of canned cod fish, cheese, Iberian ham, etc.",
+                    "class": "two"
+                },
+                {
+                    "files": ["2.1-tile.jpg", "2.2-tile.jpg"],
+                    "caption": "The tile on historic buildings around Porto were amazing - Almas chapel and Santo Ildefonso church.",
+                    "class": "one"
+                },
+                {
+                    "files": ["2.3-cat.jpg", "2.4-cat.jpg"],
+                    "caption": "Cats",
+                    "class": "two"
+                },
+                {
+                    "files": ["3.1-streets.jpg", "3.2-streets.jpg", "3.3-streets.jpg"],
+                    "caption": "Porto was made of rolling hills, narrow streets and expansive hilltop view. It justaposes old and new, quaint and bustling",
+                    "class": "landscape-2-stack-portrait-1"
+                },
+                {
+                    "files": ["5.1-view.jpg"],
+                    "caption": "View from top of the hill.",
+                    "class": "one"
+                },
+                {
+                    "files": ["4.1-cathedral.jpg", "4.3-cathedral.jpg", "4.2-cathedral.jpg"],
+                    "caption": "On the last morning before boarding the train, I visited the Porto Cathedral.",
+                    "class": "landscape-2-stack-portrait-1-2"
+                },
+                {
+                    "files": ["4.4-cathedral.jpg"],
+                    "class": "one"
+                }
+            ]
+        }
+    }
+}
