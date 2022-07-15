@@ -1,11 +1,15 @@
 function loadTwitter() {
   $.ajax({
-    url: '//socialtrackr.herokuapp.com/search/_myfashionhub',
+    url: '//socialtrackr.herokuapp.com/search',
+    type: 'GET',
+    data: {
+      term: '_myfashionhub',
+      type: 'username',
+    },
     dataType: 'json',
-    success: displayTweets
+    success: displayTweets,
   });
 }
-
 
 function displayTweets(data) {
   for (var i = 0; i < 5; i++) {
@@ -26,7 +30,6 @@ function displayTweets(data) {
     });
   }, 3500);
 }
-
 
 function iconHover() {
   var socialLis = $('.contact').children();
