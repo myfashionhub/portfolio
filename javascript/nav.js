@@ -3,24 +3,29 @@ function MainNav() {
 
     this.currentTab();
     this.showDropdownMenu();
-    $('.menu a').click((e) => this.menuItemSelected(e));
+    $('.menu a').click((e) => {
+      var link = $(e.target);
+      var sectionName = link.attr('id').replace('menu-','');
+
+      this.toggleMenuItem(link);
+      this.menuItemSelected(sectionName);
+    });
 
     loadTwitter();
     // Icon bounce effect
     iconHover();
   };
 
-  this.menuItemSelected = function (e) {
-    var link = $(e.target);
-    var sectionName = link.attr('id').replace('menu-','');
-
-    $('main').children().slideUp().appendTo($('.hidden'));
-    this.toggleMenuItem(link);
-
+  this.menuItemSelected = function (sectionName) {
     var randomIndex = Math.round(Math.random());
     var effect = ['drop', 'clip'][randomIndex];
-    $(`.${sectionName.replace('menu-','')}`).
-      appendTo($('main')).hide().toggle(effect);
+
+    $('main').empty();
+    $(`.${sectionName.replace('menu-','')}`)
+      .clone()
+      .appendTo($('main'))
+      .hide()
+      .toggle(effect);
   };
 
   this.toggleMenuItem = function (clickedItem) {
@@ -29,14 +34,11 @@ function MainNav() {
   };
 
   this.currentTab = function () {
-    if (location.hash === '') {
-      $('#menu-about').addClass('current');
-      $('.about').appendTo($('main')).hide().fadeIn('slow');
-    } else {
-      var sectionName = location.hash.replace('#','');
-      $('#menu-'+sectionName).addClass('current');
-      $('.'+sectionName).appendTo($('main')).hide().fadeIn('slow');
-    }
+    var sectionName = location.hash.replace('#','');
+    if (!sectionName) sectionName = 'about';
+
+    $('#menu-'+sectionName).addClass('current');
+    this.menuItemSelected(sectionName);
   };
 
   this.showDropdownMenu = function () {
